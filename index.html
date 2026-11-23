@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Futuro Profissional | Enfermagem</title>
+  <meta name="description" content="Portfólio pessoal de um futuro profissional de enfermagem.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= MENU ================= -->
+  <header class="topbar">
+    <nav class="nav container" aria-label="Menu principal">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">✚</span> <span>Meu Futuro</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#trajetoria">Trajetória</a></li>
+        <li><a href="#profissao">Profissão</a></li>
+        <li><a href="#objetivos">Objetivos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">🌙</button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= INÍCIO ================= -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Olá, eu sou</p>
+          <!-- PERSONALIZE: coloque seu nome -->
+          <h1>Maria Clara Uliana Braga</h1>
+          <p class="hero-role">Estudante de Desenvolvimento de Sistemas e <strong>futuro(a) enfermeira</strong></p>
+          <p class="hero-desc">
+            Acredito que cuidar de pessoas é a forma mais bonita de usar o conhecimento.
+            Neste site eu mostro de onde venho, para onde vou e como a tecnologia vai me ajudar a chegar lá.
+          </p>
+          <div class="hero-buttons">
+            <a href="#profissao" class="btn btn-primary">Conheça meu sonho</a>
+            <a href="#objetivos" class="btn btn-ghost">Meus objetivos</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="avatar">
+            <img src="images/eu.jpeg" alt="Minha foto">
+          </div>
+          <div class="pulse-card">
+            <span class="heart">❤</span>
+            <svg viewBox="0 0 200 50" class="ecg">
+              <polyline points="0,25 40,25 50,25 58,8 68,42 78,25 110,25 120,25 128,12 138,38 146,25 200,25" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 C240,90 480,0 720,30 C960,60 1200,90 1440,30 L1440,80 L0,80 Z"></path>
+      </svg>
+    </section>
+
+    <!-- ================= APRESENTAÇÃO PESSOAL ================= -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Apresentação pessoal</h2>
+        <p class="section-sub reveal">Quem sou eu além do currículo.</p>
+
+        <div class="about-grid">
+          <div class="card reveal">
+            <h3>Um pouco sobre mim</h3>
+            <!-- PERSONALIZE: escreva com suas palavras -->
+            <p>
+              Meu nome é Maria Clara Uliana Braga, tenho 17 anos e moro em Tambaú-SP.
+              Sou uma pessoa dedicada, curiosa, empática e gosto de aprender coisas novas.
+              Atualmente estudo Desenvolvimento de Sistemas no SENAI, mas meu objetivo é seguir carreira na área da saúde, como enfermeira.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Meus interesses</h3>
+            <div class="chips">
+              <span class="chip">Saúde e bem-estar</span>
+              <span class="chip">Cuidar de pessoas</span>
+              <span class="chip">Tecnologia</span>
+              <span class="chip">Primeiros socorros</span>
+              <span class="chip">Biologia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRAJETÓRIA ACADÊMICA ================= -->
+    <section id="trajetoria" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Trajetória acadêmica</h2>
+        <p class="section-sub reveal">Clique em cada etapa da linha do tempo para ver os detalhes.</p>
+
+        <div class="timeline reveal" id="timeline" role="tablist" aria-label="Linha do tempo acadêmica">
+          <button class="tl-dot active" role="tab" aria-selected="true" data-target="tl-0">
+            <span class="tl-year">2015</span><span class="tl-label">Ensino Fundamental</span>
+          </button>
+          <button class="tl-dot" role="tab" aria-selected="false" data-target="tl-1">
+            <span class="tl-year">2024</span><span class="tl-label">Ensino Médio</span>
+          </button>
+          <button class="tl-dot" role="tab" aria-selected="false" data-target="tl-2">
+            <span class="tl-year">2025</span><span class="tl-label">SENAI</span>
+          </button>
+          <button class="tl-dot" role="tab" aria-selected="false" data-target="tl-3">
+            <span class="tl-year">Futuro</span><span class="tl-label">Enfermagem</span>
+          </button>
+        </div>
+
+        <div class="timeline-panels reveal">
+          <!-- PERSONALIZE: conte sua história real em cada painel -->
+          <article class="tl-panel show" id="tl-0">
+            <h3>Ensino Fundamental</h3>
+            <p>Minha trajetória escolar começou no SESI, onde estudei durante todo o Ensino Fundamental. Foi uma fase de muitas descobertas, amizades, aprendizados e momentos que contribuíram para minha formação.</p>
+        </article>
+
+        <article class="tl-panel" id="tl-1">
+            <h3>Ensino Médio</h3>
+            <p>Continuei meus estudos no SESI, onde atualmente curso o Ensino Médio junto com o Técnico em Desenvolvimento de Sistemas pelo SENAI. Essa fase tem sido marcada por novos desafios, aprendizados e pela descoberta dos meus interesses profissionais.</p>
+        </article>
+          <article class="tl-panel" id="tl-2">
+            <h3>Desenvolvimento de Sistemas – SENAI</h3>
+            <p>
+              Atualmente curso Desenvolvimento de Sistemas. Aprendi lógica de programação, HTML, CSS e JavaScript,
+              além de trabalho em equipe, organização e resolução de problemas. Este site é um dos projetos que desenvolvi no curso.
+            </p>
+          </article>
+          <article class="tl-panel" id="tl-3">
+            <h3>Próximo passo: Graduação em Enfermagem</h3>
+            <p>Meu plano é ingressar em um curso de Bacharelado em Enfermagem, fazer estágios e me preparar para atuar com cuidado, ética e responsabilidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROFISSÃO DESEJADA ================= -->
+    <section id="profissao" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Profissão desejada</h2>
+        <p class="section-sub reveal">Enfermagem: a ciência e a arte de cuidar.</p>
+
+        <div class="profession-grid">
+          <div class="card highlight reveal">
+            <h3>Por que Enfermagem?</h3>
+            <!-- PERSONALIZE: este é o texto mais importante, conte sua motivação real -->
+            <p>
+                    A enfermagem é uma profissão que vai muito além de cuidar de doenças. É estar ao lado das pessoas, oferecer apoio, acolhimento e carinho nos momentos em que elas mais precisam.
+                    Escolhi essa profissão porque quero fazer a diferença na vida das pessoas, ajudar quem precisa e proporcionar cuidado e conforto. Acredito que pequenos gestos podem transformar momentos difíceis e que cuidar de alguém é também uma forma de demonstrar amor e humanidade.
+                     Quero me tornar uma profissional dedicada, responsável e, acima de tudo, humana.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>O que uma enfermeira faz</h3>
+            <ul class="check-list">
+              <li>Cuida e acompanha pacientes em hospitais, UBS e clínicas</li>
+              <li>Aplica medicações e realiza procedimentos</li>
+              <li>Educa a população sobre prevenção e saúde</li>
+              <li>Coordena equipes e organiza o atendimento</li>
+              <li>Atua em campanhas de vacinação e saúde pública</li>
+            </ul>
+          </div>
+        </div>
+
+        <blockquote class="quote reveal">
+          “Cuidar é mais do que tratar uma doença: é enxergar a pessoa inteira.”
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ================= OBJETIVOS PROFISSIONAIS ================= -->
+    <section id="objetivos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Objetivos profissionais</h2>
+        <p class="section-sub reveal">Marque as metas que você já conquistou e veja o progresso. (Pode clicar!)</p>
+
+        <div class="goals-wrap reveal">
+          <div class="progress-box">
+            <div class="progress-info">
+              <span>Progresso dos objetivos</span>
+              <strong id="goalPercent">0%</strong>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" id="goalFill"></div></div>
+          </div>
+
+          <!-- PERSONALIZE: ajuste as metas e os prazos -->
+          <ul class="goals" id="goals">
+            <li><label><input type="checkbox"><span class="goal-text"><strong>Curto prazo:</strong> concluir o curso de Desenvolvimento de Sistemas</span></label></li>
+            <li><label><input type="checkbox"><span class="goal-text"><strong>Curto prazo:</strong> fazer curso de Primeiros Socorros</span></label></li>
+            <li><label><input type="checkbox"><span class="goal-text"><strong>Médio prazo:</strong> ingressar na faculdade UNAERP no curso de Enfermagem com bolsa de estudos </span></label></li>
+            <li><label><input type="checkbox"><span class="goal-text"><strong>Médio prazo:</strong> participar de estágios e projetos de extensão na área da saúde</span></label></li>
+            <li><label><input type="checkbox"><span class="goal-text"><strong>Longo prazo:</strong> me formar e conquistar o registro no COREN</span></label></li>
+            <li><label><input type="checkbox"><span class="goal-text"><strong>Longo prazo:</strong> fazer uma especialização em neonatologia</span></label></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HABILIDADES E INTERESSES ================= -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Habilidades e interesses</h2>
+        <p class="section-sub reveal">O que já sei e o que quero desenvolver.</p>
+
+        <div class="skills-grid">
+          <div class="card reveal">
+            <h3>Habilidades técnicas</h3>
+            <!-- PERSONALIZE: ajuste os percentuais em data-level conforme sua realidade -->
+            <div class="skill"><div class="skill-head"><span>HTML</span><span>80%</span></div><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+            <div class="skill"><div class="skill-head"><span>CSS</span><span>70%</span></div><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+            <div class="skill"><div class="skill-head"><span>JavaScript</span><span>55%</span></div><div class="bar"><div class="bar-fill" data-level="55"></div></div></div>
+            <div class="skill"><div class="skill-head"><span>Lógica de programação</span><span>75%</span></div><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Habilidades pessoais</h3>
+            <div class="skill"><div class="skill-head"><span>Empatia</span><span>90%</span></div><div class="bar"><div class="bar-fill" data-level="90"></div></div></div>
+            <div class="skill"><div class="skill-head"><span>Comunicação</span><span>75%</span></div><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+            <div class="skill"><div class="skill-head"><span>Trabalho em equipe</span><span>85%</span></div><div class="bar"><div class="bar-fill" data-level="85"></div></div></div>
+            <div class="skill"><div class="skill-head"><span>Organização</span><span>70%</span></div><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+          </div>
+        </div>
+
+        <div class="card reveal interests-card">
+          <h3>Assuntos que gosto de estudar</h3>
+          <div class="chips">
+            <span class="chip">Anatomia humana</span>
+            <span class="chip">Inovação em saúde</span>
+            <span class="chip">Fisiologia humana </span>
+            <span class="chip">Pediatria</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECNOLOGIA NA PROFISSÃO ================= -->
+    <section id="tecnologia" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Tecnologia na profissão</h2>
+        <p class="section-sub reveal">Como a tecnologia ajuda a cuidar melhor. Clique nos cartões para expandir.</p>
+
+        <div class="tech-grid">
+          <article class="tech-card reveal">
+            <button class="tech-head" aria-expanded="false">
+              <span class="tech-icon">📋</span>
+              <span>Prontuário eletrônico</span>
+              <span class="chev">+</span>
+            </button>
+            <div class="tech-body"><p>Reúne o histórico do paciente em um só lugar, evita perda de informação e permite que toda a equipe acompanhe o tratamento em tempo real.</p></div>
+          </article>
+
+          <article class="tech-card reveal">
+            <button class="tech-head" aria-expanded="false">
+              <span class="tech-icon">📡</span>
+              <span>Telessaúde</span>
+              <span class="chev">+</span>
+            </button>
+            <div class="tech-body"><p>Permite orientar e acompanhar pacientes à distância, levando atendimento a quem mora longe de hospitais e reduzindo filas.</p></div>
+          </article>
+
+          <article class="tech-card reveal">
+            <button class="tech-head" aria-expanded="false">
+              <span class="tech-icon">⌚</span>
+              <span>Monitoramento de sinais vitais</span>
+              <span class="chev">+</span>
+            </button>
+            <div class="tech-body"><p>Sensores e dispositivos vestíveis medem batimentos, oxigenação e pressão, e emitem alertas automáticos quando algo foge do normal.</p></div>
+          </article>
+
+          <article class="tech-card reveal">
+            <button class="tech-head" aria-expanded="false">
+              <span class="tech-icon">🤖</span>
+              <span>Inteligência Artificial</span>
+              <span class="chev">+</span>
+            </button>
+            <div class="tech-body"><p>Ajuda a analisar dados, prever riscos e organizar rotinas. Ela apoia a decisão, mas o cuidado humano continua sendo insubstituível.</p></div>
+          </article>
+
+          <article class="tech-card reveal">
+            <button class="tech-head" aria-expanded="false">
+              <span class="tech-icon">💉</span>
+              <span>Segurança do paciente</span>
+              <span class="chev">+</span>
+            </button>
+            <div class="tech-body"><p>Pulseiras com código de barras e sistemas de checagem reduzem erros na administração de medicamentos.</p></div>
+          </article>
+
+          <article class="tech-card reveal">
+            <button class="tech-head" aria-expanded="false">
+              <span class="tech-icon">🎓</span>
+              <span>Simulação realística</span>
+              <span class="chev">+</span>
+            </button>
+            <div class="tech-body"><p>Bonecos e ambientes virtuais permitem treinar procedimentos com segurança antes de atender pessoas de verdade.</p></div>
+          </article>
+        </div>
+
+        <div class="card reveal tech-note">
+          <h3>Onde eu entro nisso?</h3>
+          <p>
+            Com conhecimentos de programação, posso entender melhor os sistemas usados na saúde, sugerir melhorias,
+            automatizar tarefas e até criar ferramentas que facilitem o dia a dia de uma equipe de enfermagem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="footer">
+    <div class="container">
+      <p><span class="logo-icon">✚</span> Meu Futuro Profissional</p>
+      <!-- PERSONALIZE: seu nome e ano -->
+      <p class="footer-small">Desenvolvido por Maria Clara Uliana Braga • SENAI • 2026</p>
+      <a href="#inicio" class="btn btn-ghost small">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
